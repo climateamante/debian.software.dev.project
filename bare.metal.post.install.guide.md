@@ -28,3 +28,6 @@
     - `Port 22`
     - `PermitRootLogin no`   
  
+* Remote Desktop:
+  - `sudo apt install xrdp`
+  - `sudo ufw allow 3389/tcp`
