@@ -16,3 +16,11 @@
 
 * VSCodium:
   - requires: `sudo apt install dirmngr software-properties-common apt-transport-https curl -y`
+
+
+### Micro-Controller:
+
+* Arduino:
+ - ide: `sudo apt install arduino`
+ - additional board manager url: `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+ - update system and boards
