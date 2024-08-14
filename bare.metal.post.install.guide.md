@@ -24,4 +24,7 @@
 * SSH:
   - `sudo systemctl start ssh`
   - `sudo systemctl enable ssh`
+  - udpate: `/etc/ssh/sshd_config`
+    - `Port 22`
+    - `PermitRootLogin no`   
  
