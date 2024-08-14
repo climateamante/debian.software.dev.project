@@ -8,10 +8,20 @@
   - intel-nuc related: `apt install intel-microcode firmware-linux firmware-linux-nonfree i7z xserver-xorg-video-intel`
   - sensors: `apt install nmon htop lm-sensors gnome-system-monitor`
   - build tools: `apt install git build-essential`
-  - network: `network-manager wireless-tools ufw rsync`
+  - network: `network-manager wireless-tools ufw rsync openssh-server`
  
 
 ### Remote Access:
 * Config:
-  - enable firewall `sudo ufw enable`
-  - 
+  - UFW firewall `sudo ufw enable`
+    - `sudo ufw allow ssh`
+    - `sudo ufw allow http`
+    - `sudo ufw allow https`
+
+* Permissions:
+  - Sudo: `sudo usermod -aG sudo user_name_goes_here`
+  
+* SSH:
+  - `sudo systemctl start ssh`
+  - `sudo systemctl enable ssh`
+ 
