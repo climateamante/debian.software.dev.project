@@ -5,7 +5,12 @@
 
 * Add user to input group
   - `sudo gpasswd -a $USER input`
+
+* Touch Requirements:
   - `sudo apt-get install wmctrl python3 python3-setuptools xdotool python3-gi libinput-tools python3-gi`
+  - `sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager`
+  - `sudo add-apt-repository ppa:touchegg/stable && sudo apt install touchegg`
+    
 * _Explanation_:
   - wmctrl: A command-line tool to interact with a Window Manager.
   - python3: The Python 3 interpreter.
