@@ -36,3 +36,25 @@
 
 * Mulit-Touch Test:
   - `sudo apt install evtest`
+
+
+## Multitouch Testing and Calibration
+
+### Finding Device ID and Testing Multi-Touch Capability
+- **[CheckingMTDevice](Multitouch/Testing/CheckingMTDevice)**: How to find your device ID and test it for multi-touch capability.
+
+### Using Geisview for Event Testing
+- **[UsingGeisview](Multitouch/Testing/UsingGeisview)**: Using the geisview tool to see if you're getting expected events.
+
+### Recording and Playback of Touch Events
+- **[Evemu](Multitouch/Testing/Evemu)**: Recording and playback of touch events and gestures; extremely useful for debugging.
+
+### Visual Feedback Tools
+- **[UsingMtview](Multitouch/Testing/UsingMtview)**: A visual feedback tool that shows touch points, sizes, disconnects, offsets, etc.
+- **[UsingUCube](Multitouch/Testing/UsingUCube)**: Another visual feedback tool, but instead of touch points checking, does gesture checking.
+
+### Multitouch Support in Legacy Applications
+- **[Ginn](Multitouch/Ginn)**: A tool to provide multitouch support in legacy applications without recoding; Ginn can be very helpful in testing an MT setup.
+
+### Calibrating N-Trig Hardware
+- **[Ntrig](Multitouch/Calibration/Ntrig)**: A tool for calibrating N-Trig hardware.
