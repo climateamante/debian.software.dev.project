@@ -10,6 +10,11 @@
   - `sudo apt-get install wmctrl python3 python3-setuptools xdotool python3-gi libinput-tools python3-gi`
   - `sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager`
   - `sudo add-apt-repository ppa:touchegg/stable && sudo apt install touchegg`
+
+* Extentions:
+  - `x11 gestures`: change search from _popularity_ filter to __recent__
+
+
     
 * _Explanation_:
   - wmctrl: A command-line tool to interact with a Window Manager.
