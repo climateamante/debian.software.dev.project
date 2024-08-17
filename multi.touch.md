@@ -15,8 +15,13 @@
   - libinput-tools: Tools for configuring and debugging libinput.
   - python3-gi: This package provides the GObject Introspection libraries for Python 3 (replacing python-gobject).
 
+## Installs:
 
-
+* Calibration:
+  - `sudo apt install xinput-calibrator`
+* Input:
+  - `sudo snap install libinput`
+ 
 ## Debug:
 
 * Mulit-Touch Test:
