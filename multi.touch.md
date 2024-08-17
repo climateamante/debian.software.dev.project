@@ -14,3 +14,10 @@
   - python3-gi: Python 3 bindings for gobject-introspection libraries.
   - libinput-tools: Tools for configuring and debugging libinput.
   - python3-gi: This package provides the GObject Introspection libraries for Python 3 (replacing python-gobject).
+
+
+
+## Debug:
+
+* Mulit-Touch Test:
+  - `sudo apt install evtest`
