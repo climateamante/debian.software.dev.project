@@ -24,3 +24,5 @@
  - ide: `sudo apt install arduino`
  - additional board manager url: `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
  - update system and boards
+ - python related: `sudo apt install pip`
+ - pyserial: `sudo python3 -m pip install pyserial`
